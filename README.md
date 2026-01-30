@@ -12,17 +12,16 @@ Then in another terminal and run
 ```
 cd robot_web_interface_glocomp
 python3 -m https.server 8000
-
 ```
 
 ### Features
-> General robot status \n
-> Battery percentage\n
-> Front and back camera streams\n
-> Teleop control\n
-> Smartphone and computer support\n
+> - General robot status
+> - Battery percentage
+> - Front and back camera streams
+> - Teleop control
+> - Smartphone and computer support
 
 ### ToDo
-> Change camera stream from ros message to webrtc
-> Get map and robot TFs displayed
-> Intergration with slam on the robot
+> - Change camera stream from ros message to webrtc
+> - Get map and robot TFs displayed
+> - Intergration with slam on the robot
